@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <section class="container">
+
+        <div class="boxContainerOne">
+            <div class="box">
+                <div class="imgBox">
+                    <img src="img/creative-designer.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h2 id="text">John Doe <br><span>Creative Designer</span></h2>
+                </div>
+            </div>
+            <!-- CHANGE BACKGROUND COLOR -->
+            <div class="inputBox">
+                <h3 class="titleInput">Change background card</h3>
+                <form class="inputContainer">
+                    <!-- Red -->
+                    <label>Red:</label>
+                    <input type="range" class="rangeRed" value="4" min="0" max="255">
+                    <!-- Green -->
+                    <label>Green:</label>
+                    <input type="range" class="rangeGreen" value="12" min="0" max="255">
+                    <!-- Blue -->
+                    <label>Blue:</label>
+                    <input type="range" class="rangeBlue" value="33" min="0" max="255">
+                    <p>Color: <span class="colorOutput">rgb(6,12,33)</span></p>
+                    <input type="reset" value="Reset" class="reset">
+                </form>
+            </div>
+            <!-- CHANGE TEXT COLOR -->
+            <div class="inputBox">
+                <h3 class="titleInput">Change text color</h3>
+                <form class="inputContainer">
+                    <!-- Red -->
+                    <label>Red:</label>
+                    <input type="range" class="textRed" value="255" min="0" max="255">
+                    <!-- Green -->
+                    <label>Green:</label>
+                    <input type="range" class="textGreen" value="255" min="0" max="255">
+                    <!-- Blue -->
+                    <label>Blue:</label>
+                    <input type="range" class="textBlue" value="255" min="0" max="255">
+                    <p>Color: <span class="textOutput">rgb(255,255,255)</span></p>
+                    <input type="reset" value="Reset" class="restart">
+                </form>
+            </div>
+            
+        </div>
+        
+    </section>
+    
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

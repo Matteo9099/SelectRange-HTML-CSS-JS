@@ -1,1 +1,1 @@
-# SelectRange-HTML-CSS-JS
+# Seleziona l'effetto che ti piace di più in una card dal design accattivante.
