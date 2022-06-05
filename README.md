@@ -1,1 +1,1 @@
-# Seleziona l'effetto che ti piace di più in una card dal design accattivante.
+# Seleziona il background e il colore del testo che ti piace di più in una card dal design accattivante.
